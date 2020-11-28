@@ -1,0 +1,212 @@
+body{
+    font-family:'Kalam', cursive; 
+
+}
+
+.shop-name{
+    margin-top: 240px;
+    text-align: center;
+    
+}
+.shop-name-titre{
+     font-size: 1.6rem;
+}
+
+/*Apropos*/
+
+.propos{
+    margin-top: 200px;
+    text-align: justify;
+}
+.propos-titre{
+    text-align: center;
+}
+button a {
+    color: white;
+    
+}
+button a:hover{
+    text-decoration: none;
+    color: crimson;
+}
+.card-header{
+    display: flex;
+    justify-content: space-around;
+}
+#teddies-container{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.page{
+    min-height:100vh;
+	display:flex; 
+	flex-direction:column; 
+}
+.container-about{
+    flex-grow:1;
+
+}
+.propos-paragraphe{
+    border: grey 1px solid;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 10px;
+}
+.containerTeddi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-teddi{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+}
+.add-to-cart{
+    margin-bottom: 20px;
+}
+#container-panier{
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom:10px;
+    border: grey 1px solid; 
+}
+#container-form{
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: grey 1px solid; 
+}
+
+.articlePanier{
+    display: flex;
+    flex-direction: column;
+}
+.titrePanier{
+    display: flex;
+    justify-content: space-between;
+}
+.prixPanier{
+    text-align: center;
+}
+#container-button{
+    text-align: center; 
+    margin-bottom: 50px;
+    
+    
+}
+#container-form{
+    display: none;
+    border-radius: 10px;
+}
+input:invalid {
+    border: 2px solid red;
+    margin-left: 20px;
+  }
+  
+  input:valid {
+    border: 1px solid black;
+    margin-left: 20px;
+  }
+  
+  .form-group button{
+    margin-left: 110px;
+    background-color:#6C757D ;
+    
+  }
+ .carIndex{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+ } 
+
+ #carouselIndex{
+     border : 3px solid #00000008;
+     border-radius: 10px;
+     background-color:#00000008 ;
+    
+ } 
+ .pagePanier{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .confirm-paragraphe{
+    border: grey 1px solid;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 10px;
+ }
+
+ /*mise en page panier2*/
+ #container-panier2{
+     margin-top: 100px;
+ }
+.ulDisposition{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+    border: 2px solid #6C757D;
+    background: #00000008;
+    border-radius: 5px;
+}
+.ulDisposition .liDisp{
+    margin-right: 40px;
+    padding-left: 10px;
+    
+}
+.liDisp ul{
+    list-style: none;
+    margin: 10px 5px;
+    padding: 0;
+    text-align: center;
+}
+.deleteBtn{
+    border-radius: 5px;
+    border: 2px solid #6C757D;
+}
+/*mise en page modal*/
+.calc{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.modale{
+    border: #6C757D 4px solid;
+    border-radius: 10px;
+    background: cornsilk;
+    min-width: 30rem;
+}
+.modale p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.modale .btn{
+    margin-left:20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+
