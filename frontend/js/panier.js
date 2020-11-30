@@ -172,8 +172,11 @@ const commandePanier = () =>{
          console.log(response);
           let confirmation = await response.json();
           console.log(confirmation);
+          let idConfirmation = confirmation.orderId;
+          console.log(idConfirmation);
+          
          if (typeof localStorage != "undefined") {
-          sessionStorage.setItem("confirm", JSON.stringify(confirmation));
+          localStorage.setItem("confirm", JSON.stringify(idConfirmation));
           localStorage.removeItem("teddiesInCart");
          window.location.href ="confirm.html";
          } else {
