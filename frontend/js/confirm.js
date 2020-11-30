@@ -16,6 +16,6 @@ affichageConfirmOrder();
      
     }
 
- // supression du sessionStorage    
+ // supression du localStorage    
 
  localStorage.clear();
