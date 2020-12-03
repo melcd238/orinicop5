@@ -29,12 +29,8 @@ const appelDeApi = async function ()  {
                 return this.tedPrice * this.tedQuantite;
                 
           }
-          
-          
-        };
-        
-
-        if(typeof localStorage != "undefined"){
+           };
+         if(typeof localStorage != "undefined"){
           // on recupère la valeur dans le Web Storage
         let teddiesStore = JSON.parse(localStorage.getItem("teddiesInCart"));
               if (teddiesStore === null || teddiesStore === "undefined") {

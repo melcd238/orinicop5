@@ -107,7 +107,7 @@ const compteurPanierPrixTotal = () =>{
   let prixTotal = arrayPrixTotal.reduce((accumulater, valeurCourante)=> accumulater+ valeurCourante);
   const prixTotalCommande = document.querySelector('#totalPricePanier');
   prixTotalCommande.innerHTML= `PRIX TOTAL: ${prixTotal}€`;
-  sessionStorage.setItem("TotalPrice", prixTotal);
+  localStorage.setItem("TotalPrice", prixTotal);
  
 
 }

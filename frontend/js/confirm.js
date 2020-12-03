@@ -1,7 +1,7 @@
 // recuperation de la reponse de confirmation et du prix total de la commande 
 let confirmationCommande = JSON.parse(localStorage.getItem("confirm"));
 console.log(confirmationCommande);
-let totalPrice = sessionStorage.getItem("TotalPrice");
+let totalPrice = localStorage.getItem("TotalPrice");
 console.log(totalPrice)
 // affichage de la confirmation de commande
 affichageConfirmOrder();
